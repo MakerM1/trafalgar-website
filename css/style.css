@@ -2,6 +2,19 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #458FF6;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #2b69bf;
+}
+
 .main-header {
     margin: 62px 0 0;
     max-width: 100%;
@@ -130,6 +143,7 @@ body {
     background-image: url('../images/background-3.svg'), url('../images/background-2.svg');
     background-repeat: no-repeat;
     background-position: right 11% bottom 44.5%, left;
+    margin-bottom: 221px;
 }
 
 .services-heading {
@@ -146,6 +160,7 @@ body {
     height: 2px;
     background-color: black;
     margin-bottom: 33px;
+    border-radius: 5px;
 }
 
 .services-paragraph {
@@ -224,4 +239,62 @@ body {
 
 .learn-more-button:active {
     background-color: #2b69bfb4;
+}
+
+.healthcare-providers-section {
+    padding: 10px;
+}
+
+.healthcare-providers-section-main-container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.healthcare-main-container-left-side {
+    display: inline-block;
+    text-align: left;
+    width: 65%;
+}
+
+.healthcare-illustration {
+    max-width: 693px;
+    width: 100%;
+}
+
+.healthcare-main-container-right-side {
+    max-width: 445px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 140px;
+}
+
+.healthcare-main-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 481px;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.healthcare-line {
+    max-width: 56px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 31px;
+    border-radius: 10px;
+}
+
+.healthcare-paragraph {
+    max-width: 450px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7D7987;
+    margin-bottom: 40px;
 }
