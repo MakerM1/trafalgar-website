@@ -1,0 +1,41 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.main-header {
+    padding: 62px 0;
+    max-width: 100%;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.left-side {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.right-side {
+    width: 38%;
+    display: inline-block;
+    text-align: right;
+    padding: 5px;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.main-nav .home {
+    font-weight: 700;
+}
+
+.main-nav .about-us {
+    margin-right: 0;
+}
