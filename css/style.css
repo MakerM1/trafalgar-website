@@ -231,6 +231,10 @@ body::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
 }
 
+.learn-more-button i {
+    margin-left: 14px;
+}
+
 .learn-more-button:hover {
     background-color: #2b69bf;
     border: 1.4px solid transparent;
@@ -243,6 +247,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .healthcare-providers-section {
     padding: 10px;
+    margin-bottom: 15px;
 }
 
 .healthcare-providers-section-main-container {
@@ -297,4 +302,394 @@ body::-webkit-scrollbar-thumb:hover {
     line-height: 32px;
     color: #7D7987;
     margin-bottom: 40px;
+}
+
+.download-app-section {
+    padding: 250px 10px 10px 10px;
+    background-image: url('../images/background-4.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    margin-bottom: 266px;
+}
+
+.download-app-section-main-container {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.app-main-container-left-side {
+    max-width: 445px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 140px;
+}
+
+.app-illustration {
+    max-width: 693px;
+    width: 100%;
+}
+
+.app-main-container-right-side {
+    display: inline-block;
+    text-align: right;
+    width: 65%;
+}
+
+.app-main-heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    max-width: 481px;
+    width: 100%;
+    margin-bottom: 26px;
+}
+
+.app-line {
+    max-width: 56px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 31px;
+    border-radius: 10px;
+}
+
+.app-paragraph {
+    max-width: 450px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7D7987;
+    margin-bottom: 40px;
+}
+
+.review-section {
+    padding: 10px;
+    background-image: url('../images/background-4.svg');
+    background-repeat: no-repeat;
+    background-position: left 10% bottom 20%;
+    margin-bottom: 210px;
+}
+
+.review-section-main-container {
+    max-width: 1120px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url('../images/background-5.svg'), linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    background-repeat: no-repeat;
+    background-size: 131px, 100%;
+    background-position: right -45px top -20px, center;
+    padding: 63px 10px;
+    border-radius: 24px;
+    margin-bottom: 42px;
+}
+
+.review-main-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.review-line {
+    max-width: 56px;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.review-bottom-part {
+    color: white;
+    text-align: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.review-left-side {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 441px;
+    width: 100%;
+    text-align: left;
+}
+
+
+.pfp {
+    max-width: 141px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 33px;
+}
+
+.name-info {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.review-right-side {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.review-right-side p {
+    max-width: 420px;
+    width: 100%;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.review-container-pages {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dots {
+    vertical-align: middle;
+    margin: 0 89px;
+    transition: all 0.15s;
+}
+
+.review-container-pages .fa-arrow-left-long {
+    color: #458ff69e;
+    font-size: 25px;
+    vertical-align: middle;
+    transition: all 0.15s;
+    cursor: pointer;
+}
+
+.fa-arrow-left-long:hover {
+    margin-right: 10px;
+}
+
+.review-container-pages .active {
+    color: #458FF6;
+    font-size: 25px;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.review-container-pages .active:hover {
+    margin-left: 10px;
+}
+
+.articles-section {
+    padding: 10px;
+    text-align: center;
+    background-image: url('../images/background-6.svg'), url('../images/background-7.svg');
+    background-repeat: no-repeat;
+    background-position: right, left 10% top 17%;
+    margin-bottom: 130px;
+}
+
+.articles-main-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 26px;
+}
+
+.article-line {
+    max-width: 56px;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.article-cards-container {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 72px;
+}
+
+.article-cards {
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    margin-right: 34px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.article-cards:nth-child(3) {
+    margin-right: 0;
+}
+
+.img-container img {
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.card-bottom-part {
+    text-align: left;
+    padding: 0 50px 35px 33px;
+}
+
+.card-bottom-part h5 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 12px;
+    max-width: 266px;
+    width: 100%;
+}
+
+.card-bottom-part p {
+    color: #7D7987;
+    font-weight: 300;
+    line-height: 28px;
+    max-width: 266px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.card-bottom-part a {
+    color: #4089ED;
+    font-size: 17px;
+    font-weight: 600;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.card-bottom-part a i {
+    vertical-align: middle;
+    color: #4089ED;
+    margin-left: 10px;
+}
+
+.card-bottom-part a:hover {
+    color: #4088ed8b;
+    text-decoration: underline;
+}
+
+footer {
+    padding: 70px 0 0 0;
+    background-image: url('../images/background-7.svg');
+    background-repeat: no-repeat;
+    background-position: right 80px top;
+}
+
+.footer-main-container {
+    width: 100%;
+    background-image: url('../images/background-8.svg'), linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    background-repeat: no-repeat;
+    background-position: bottom left, center;
+    padding: 124px 0 109px 0;
+}
+
+.footer-sections-container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-section-one {
+    max-width: 391px;
+    width: 100%;
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.trafalgar-info {
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 391px;
+    width: 100%;
+    margin-bottom: 31px;
+    color: white;
+}
+
+.copyright {
+    line-height: 28px;
+    color: white;
+}
+
+.logo-2 {
+    width: 150px;
+    margin-left: -10px;
+}
+
+.footer-section-two,
+.footer-section-three,
+.footer-section-four {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-section-two,
+.footer-section-three {
+    margin-right: 100px;
+}
+
+.footer-titles {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+}
+
+.footer-lists li {
+    color: white;
+    font-size: 18px;
+    line-height: 38px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.footer-lists li:hover {
+    text-decoration: underline;
+}
+
+.footer-left-side,
+.footer-right-side {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-right-side {
+    width: 60%;
+    text-align: right;
 }
