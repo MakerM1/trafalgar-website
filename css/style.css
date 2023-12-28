@@ -75,10 +75,9 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .virtual-healthcare-section-main-container {
-    max-width: 1600px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 50px;
 }
 
 .consult-main-container-left-side {
@@ -174,8 +173,8 @@ body::-webkit-scrollbar-thumb:hover {
     margin-bottom: 80px;
 }
 
-.services-container {
-    max-width: 1120px;
+.servicies-container {
+    max-width: 1300px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
@@ -190,11 +189,10 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 20px;
     box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.576);
     text-align: left;
-    padding: 52px 0 47px 37px;
+    padding: 52px 37px;
     display: inline-block;
     vertical-align: middle;
-    margin-right: 34px;
-    margin-bottom: 37px;
+    margin: 37px 34px;
 }
 
 .services-cards-img {
@@ -531,7 +529,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .article-cards-container {
-    max-width: 1150px;
+    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
     margin-bottom: 72px;
@@ -544,8 +542,7 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 20px;
     overflow: hidden;
     display: inline-block;
-    margin-right: 34px;
-    margin-bottom: 10px;
+    margin: 10px 34px;
     background-color: white;
 }
 
@@ -561,7 +558,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .card-bottom-part {
     text-align: left;
-    padding: 0 50px 35px 33px;
+    padding: 35px 33px;
 }
 
 .card-bottom-part h5 {
